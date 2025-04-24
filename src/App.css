@@ -1,0 +1,175 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fb;
+}
+
+.admin-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  background-color: #1e293b;
+  color: #fff;
+  width: 250px;
+  transition: all 0.3s ease;
+  overflow-x: hidden;
+}
+
+.sidebar.closed {
+  width: 70px;
+}
+
+.sidebar-header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #2d3a4f;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.sidebar-header h2 {
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+.sidebar.closed .sidebar-header h2 {
+  display: none;
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-nav li {
+  margin: 5px 0;
+}
+
+.sidebar-nav a {
+  text-decoration: none;
+  color: #a4b1cd;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.3s ease;
+}
+
+.sidebar-nav a:hover {
+  background-color: #2d3a4f;
+  color: #fff;
+}
+
+.sidebar-nav a.active {
+  background-color: #3a5078;
+  color: #fff;
+  border-left: 4px solid #4fd1c5;
+}
+
+.sidebar.closed .sidebar-nav a {
+  justify-content: center;
+  padding: 12px;
+}
+
+.sidebar-nav .icon {
+  font-size: 20px;
+}
+
+.sidebar.closed .sidebar-nav span {
+  display: none;
+}
+
+/* Main Content Styles */
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-navbar {
+  background-color: #fff;
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #1e293b;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-info {
+  font-weight: 500;
+}
+
+.user-avatar {
+  font-size: 24px;
+  background-color: #e2e8f0;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+
+main {
+  padding: 25px;
+  flex: 1;
+}
+
+.content-container {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.content-container h1 {
+  color: #1e293b;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.content-container p {
+  color: #64748b;
+  line-height: 1.6;
+}
+
+.logout-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #dc2626;
+}
