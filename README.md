@@ -1,17 +1,17 @@
-# **Hotel-Flow**
-## Descripción del proyecto
+# Descripcion
 
-Es un sistema de gestion de habitaciones orientado a hoteles, en el cual, por medio de un menu interactivo, el recepcionista tendra la posibilidad de realizar las siguientes acciones:
+ Es un sistema de gestión de pedidos y proveedores diseñado para optimizar la administración de suministros. A través de un menú interactivo, los usuarios pueden realizar diversas funciones clave, como:
+* Registro y administración de proveedores.
+* Gestión de pedidos, incluyendo creación, seguimiento y actualización.
+* Control del estado de los suministros y cumplimiento de entregas.
 
-* Registro de clientes y asignacion de habitaciones.
-* Verificación y modificación del estado de las habitaciones.
-* Asignar habitaciones por medio de un sistema de reservas.
+# Desarrollo
+Para el desarrollo del proyecto se siguieron los siguientes pasos:
+* Se utilizó React junto con Vite para establecer una base sólida para el Frontend.
+* Se definieron las rutas necesarias para la navegación eficiente dentro del sistema.
+* Se diseñó un panel lateral dinámico, permitiendo a los usuarios acceder fácilmente a las funcionalidades clave.
+* Se aplicaron estilos con un enfoque minimalista y profesional, garantizando una experiencia fluida y clara.
 
-## Desarrollo
+![image](https://github.com/user-attachments/assets/7c7d66da-0072-4a36-9487-ff8cdacb57c3)
 
-Para el desarrollo del proyecto se realizo el siguiente paso a paso:
-* Se hizo uso de la herramienta React y la herramienta Vite para crear la base de lo que seria el Frontend.
-* Con una base ya construida anteriormente, se crean las rutas que maneja la pagina web.
-* Teniendo presente que ya se tenia una idea del diseño de la pagina, se agrego un panel en el lateral izquierdo el cual facilita la interaccion del recepcionista con las diferentes rutas (Siendo esta la ruta de navegacion).
-* Se agregaron varios estilos que den al sitio web un diseño minimalista lo suficientemente atractivo para el usuario(Recepcionista), en el cual el panel de navegacion muestre todas las rutas con un icono representativo.
 
