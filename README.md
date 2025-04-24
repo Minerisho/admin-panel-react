@@ -1,3 +1,9 @@
+#Integrantes
+* Dylan Francisco Jimenez Sandoval - 2202049
+* Miguel Ángel Plata - 2190050 
+* Juan Camilo Ramirez Mantilla – 2202050
+
+
 # Descripcion
 
 Es un sistema de gestión de pedidos y proveedores diseñado para optimizar la administración de suministros. A través de un menú interactivo, los usuarios pueden realizar diversas funciones clave, como:
